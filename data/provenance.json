@@ -1,0 +1,413 @@
+{
+  "cutoff": "2026-10-17",
+  "cases": [
+    {
+      "id": "case-001",
+      "sourceUrl": "https://rea.tools/showcase/dx-ball/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-002",
+      "sourceUrl": "https://rea.tools/showcase/notion/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-003",
+      "sourceUrl": "https://rea.tools/showcase/aegis/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-004",
+      "sourceUrl": "https://www.youtube.com/watch?v=tByhXkxDKDo",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-005",
+      "sourceUrl": "https://www.youtube.com/watch?v=F0p9SX9T6As",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-006",
+      "sourceUrl": "https://www.youtube.com/watch?v=pX8Sy8Rd44U",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-007",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/01-vscode-monaco/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-008",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/02-grafana/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-009",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/07-keepass/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-010",
+      "sourceUrl": "https://rea.tools/examples/dino-lab/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-011",
+      "sourceUrl": "https://www.youtube.com/watch?v=c_o-2m7925o",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-012",
+      "sourceUrl": "https://github.com/tuunanet/rea-ski-or-die-reconstruction",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-013",
+      "sourceUrl": "https://rea.tools/showcase/ctf/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-014",
+      "sourceUrl": "https://rea.tools/showcase/th04/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-015",
+      "sourceUrl": "https://rea.tools/#calculator",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "공식 실행 기록"
+    },
+    {
+      "id": "case-016",
+      "sourceUrl": "https://rea.tools/guides/javascript/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육 예제"
+    },
+    {
+      "id": "case-017",
+      "sourceUrl": "https://rea.tools/guides/browser/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육 예제"
+    },
+    {
+      "id": "case-018",
+      "sourceUrl": "https://www.youtube.com/watch?v=HX96Uqq7AMg",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-019",
+      "sourceUrl": "https://www.youtube.com/watch?v=yST4x5JGu2w",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-020",
+      "sourceUrl": "https://ai-muninn.com/en/blog/reverse-engineer-own-ios-app-rea-ghidra",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-021",
+      "sourceUrl": "https://yotron-ai.com/blog/rea-reverse-engineer-anything-ai-agent-guide",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "정적 구조 조사"
+    },
+    {
+      "id": "case-022",
+      "sourceUrl": "https://yanchen.app/blog/rea-reverse-engineer-anything-claude-code/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-023",
+      "sourceUrl": "https://chihhung.github.io/Blog/posts/%E6%95%99%E5%AD%B8/ai%E9%96%8B%E7%99%BC/rea-%E6%95%99%E5%AD%B8%E6%89%8B%E5%86%8A/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    },
+    {
+      "id": "case-024",
+      "sourceUrl": "https://www.youtube.com/watch?v=c_o-2m7925o",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-025",
+      "sourceUrl": "https://www.youtube.com/watch?v=AtrCZf_Kn1Y",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-026",
+      "sourceUrl": "https://www.youtube.com/watch?v=rwCDPZP_Zk4",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-027",
+      "sourceUrl": "https://www.youtube.com/watch?v=nmzKH9t4Zos",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-028",
+      "sourceUrl": "https://www.youtube.com/watch?v=nmzKH9t4Zos",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 영상 설명란 확인"
+    },
+    {
+      "id": "case-029",
+      "sourceUrl": "https://weibo.com/2/detail/5352823472785230",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-030",
+      "sourceUrl": "https://x.com/i/article/2109843188341207283",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "색인된 작성자 본문 확인"
+    },
+    {
+      "id": "case-031",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/03-n8n/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-032",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/04-excalidraw/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-033",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/05-joplin/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-034",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/06-node-red/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-035",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/08-7zip/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-036",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/09-restic/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-037",
+      "sourceUrl": "https://github.com/Ginderlax/rea-research-lab/blob/main/projects/10-rclone/REPORT.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-038",
+      "sourceUrl": "https://github.com/Gideon145/rea-writeups/blob/main/posts/001-pylance-extension.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "정적 구조 조사"
+    },
+    {
+      "id": "case-039",
+      "sourceUrl": "https://github.com/Gideon145/rea-writeups/blob/main/posts/002-claude-code-extension.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "정적 구조 조사"
+    },
+    {
+      "id": "case-040",
+      "sourceUrl": "https://github.com/Gideon145/rea-writeups/blob/main/posts/003-notepad-native-ghidra.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "정적 구조 조사"
+    },
+    {
+      "id": "case-041",
+      "sourceUrl": "https://github.com/Gideon145/rea-writeups/blob/main/posts/004-findstr-native-ghidra.md",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "정적 구조 조사"
+    },
+    {
+      "id": "case-042",
+      "sourceUrl": "https://gittested.com/reviews/morluto-rea/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "7표본의 비교 실험"
+    },
+    {
+      "id": "case-043",
+      "sourceUrl": "https://gittested.com/reviews/morluto-rea/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-044",
+      "sourceUrl": "https://hackernoon.com/i-tested-rea-githubs-viral-reverse-engineering-tool-on-a-real-electron-app",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-045",
+      "sourceUrl": "https://hackernoon.com/i-tested-rea-githubs-viral-reverse-engineering-tool-on-a-real-electron-app",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    },
+    {
+      "id": "case-046",
+      "sourceUrl": "https://www.linuxpro.com.br/en/2026/10/rea-engenharia-reversa-com-agentes-de-ia/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    },
+    {
+      "id": "case-047",
+      "sourceUrl": "https://korben.info/rea-reverse-engineering-agent-ia-test.html",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    },
+    {
+      "id": "case-048",
+      "sourceUrl": "https://korben.info/rea-reverse-engineering-agent-ia-test.html",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-049",
+      "sourceUrl": "https://www.systemdesign.academy/explained/rea-reverse-engineer-anything",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-050",
+      "sourceUrl": "https://medium.com/@y.raj1457/rea-mcp-review-can-an-ai-agent-reverse-engineer-any-app-f25f7ebfc7c6",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-051",
+      "sourceUrl": "https://ruocco.it/news/rea-reverse-engineer-anything-tested-on-our-own-exe/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-052",
+      "sourceUrl": "https://github.com/morluto/rea/discussions/2412",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    },
+    {
+      "id": "case-053",
+      "sourceUrl": "https://github.com/morluto/rea/discussions/2412",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-054",
+      "sourceUrl": "https://github.com/morluto/rea/discussions/2254",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "작성자 공개 실행 기록"
+    },
+    {
+      "id": "case-055",
+      "sourceUrl": "https://github.com/morluto/rea/issues/2326",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "분석 범위와 누락 검사"
+    },
+    {
+      "id": "case-056",
+      "sourceUrl": "https://github.com/morluto/rea/discussions/2231",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "로컬 수정본 시제품"
+    },
+    {
+      "id": "case-057",
+      "sourceUrl": "https://genztech.blog/p/rea-reverse-engineering-mcp-setup/",
+      "reviewedAt": "2026-10-17",
+      "independentlyReplayed": false,
+      "scope": "실행된 교육·통제 예제"
+    }
+  ],
+  "deduplication": [
+    "Kingy CSV Notes fixture consolidated with official Notes Electron example",
+    "Duplicate LeaveTrack author report consolidated into one case",
+    "GitTested native and Electron benchmarks consolidated as one 7-artifact study; Minesweeper retained as separate narrow demonstration"
+  ],
+  "excluded": [
+    "REA-ZWO: REA integration remains a proposed roadmap item",
+    "Generic installations, unexecuted prompts, reposts and other tools excluded"
+  ]
+}

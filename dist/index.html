@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2846ed">
+  <meta name="description" content="REA 실제 사용이 공개 출처로 확인되는 역설계 사례를 탐색하세요. 분야별 검색, 300자 설명과 원문 출처를 제공합니다.">
+  <meta property="og:title" content="REA Case Atlas — 원리를 발견하는 사람들">
+  <meta property="og:description" content="공개 실행 기록을 읽고, 결과와 한계를 함께 확인하는 REA 역설계 사례 아카이브.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rea.homong-app.com">
+  <link rel="canonical" href="https://rea.homong-app.com/">
+  <title>REA Case Atlas — 원리를 발견하는 사람들</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="cases.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#archive">사례 목록으로 건너뛰기</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="REA Case Atlas 처음으로"><span class="brand-icon" aria-hidden="true">r<span>↗</span></span><span>REA<span class="brand-light">CASE ATLAS</span></span></a>
+    <nav aria-label="주요 메뉴"><a href="#archive">사례 탐색 <span id="nav-count"></span></a><button class="text-button" data-method>수록 기준 <span aria-hidden="true">↗</span></button><a class="official-link" href="https://rea.tools/" target="_blank" rel="noopener noreferrer">REA 공식 사이트 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> REAL RUNS. ORIGINAL SOURCES.</p>
+        <h1 id="hero-title">코드를 열어,<br>원리를 <span>발견하다.</span></h1>
+        <p class="hero-description">게임 속 작은 계산부터 앱의 보이지 않는 연결까지.<br>REA로 직접 들여다본 역설계 사례를 만나보세요.</p>
+        <a class="hero-cta" href="#archive">사례 탐색하기 <span aria-hidden="true">↘</span></a>
+        <div class="hero-note"><span class="small-cross" aria-hidden="true">＋</span> Reverse Engineer Anything · 비공식 한국어 아카이브</div>
+      </div>
+      <div class="hero-visual" aria-label="분석 대상, REA 증거, 검증 결과를 연결하는 개념 그림">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <span class="visual-label top-label">LOOK CLOSER / UNDERSTAND DEEPER</span>
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="evidence-window">
+          <div class="window-bar"><span><i></i><i></i><i></i></span><span>INVESTIGATION / 001</span><span>↗</span></div>
+          <div class="window-body"><p class="code-label">TARGET → DX-BALL 1.07</p><p class="code-main">작은 함수 하나.<br><span>확인 가능한 증거.</span></p><div class="code-lines" aria-hidden="true"><p><b>01</b><span>inspect</span> sound_pan(x)</p><p><b>02</b><span>recover</span> calculation</p><p><b>03</b><span>compare</span> original_x86</p></div><div class="proof"><span class="proof-icon">✓</span><span>3,205개 입력 비교<small>공식 시연의 검증 범위</small></span><span class="proof-tag">MATCH</span></div></div>
+        </div>
+        <div class="float-tag tag-source"><span>↗</span> 원문으로 확인</div><div class="float-tag tag-evidence"><span>✳</span> 결론에는 증거를.</div>
+        <span class="visual-label bottom-label">FROM BEHAVIOR TO EVIDENCE.</span><span class="visual-plus" aria-hidden="true">＋</span>
+      </div>
+    </section>
+    <section class="research-strip" aria-label="조사 현황">
+      <div class="research-progress"><span class="mini-label">공개 출처 확인</span><strong><span id="verified-count">—</span><span class="out-of"> / 100</span></strong><span class="progress-caption">목표 100건 중 현재 수록</span></div>
+      <div class="research-explainer"><strong>사례 수보다, 확인할 수 있는 근거.</strong><p id="research-note">원문에서 REA 사용과 수행 내용을 확인한 사례만 수록합니다.</p></div>
+      <button class="method-link" data-method>어떻게 골랐나요? <span aria-hidden="true">↗</span></button>
+    </section>
+    <section id="archive" class="archive" aria-labelledby="archive-title">
+      <div class="section-heading"><div><p class="eyebrow dark">THE CASE LIBRARY</p><h2 id="archive-title">무엇을 들여다볼까요?</h2></div><span class="updated">조사 기준일 <b>2026.10.17</b></span></div>
+      <div class="search-controls"><label class="search-box" for="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input type="search" id="search" placeholder="사례명, 대상 앱, 분석 내용으로 검색" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><label class="kind-label"><span class="sr-only">자료 유형</span><select id="kind"><option value="all">모든 자료 유형</option><option value="official">공식 시연</option><option value="community">사용자 실행 기록</option><option value="benchmark">비교 실험</option><option value="video">영상 시연</option></select></label></div>
+      <div id="category-tabs" class="category-tabs" aria-label="분야 필터"></div>
+      <div class="results-bar"><p id="result-status" role="status" aria-live="polite"></p><div class="result-actions"><button class="text-button" id="bookmark-filter" aria-pressed="false"><span aria-hidden="true">☆</span> 저장한 사례 <span id="bookmark-count">0</span></button><label><span class="sr-only">정렬</span><select id="sort"><option value="curated">추천순</option><option value="title">이름순</option></select></label></div></div>
+      <div class="list-heading" aria-hidden="true"><span>NO.</span><span>사례 / 분석 대상</span><span>핵심 내용</span><span>저장·상세</span></div>
+      <div id="case-list" class="case-list"></div>
+      <div id="empty" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>조건에 맞는 사례가 없습니다.</h3><p>검색어나 필터를 바꿔 다른 사례를 찾아보세요.</p><button class="primary-button" id="reset">전체 사례 보기</button></div>
+      <div id="pagination" class="pagination" aria-label="사례 목록 페이지"></div>
+    </section>
+    <section class="closing-note"><div class="closing-mark" aria-hidden="true">r↗</div><div><p class="eyebrow dark">FOLLOW THE EVIDENCE</p><h2>흥미로운 주장 다음에는,<br>원본 기록이 있습니다.</h2><p>각 사례의 ‘원본 출처’에서 사용 도구, 실제 결과, 검증 범위를 직접 확인해 보세요.</p></div><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">REA 프로젝트 살펴보기 <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><a class="footer-brand" href="#top">REA CASE ATLAS</a><p>기획 · 호연지재 이용호 <span>© 2026</span></p><button class="text-button" data-method>수록 기준과 출처 안내 ↗</button></footer>
+  <dialog id="case-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="dialog-eyebrow">REA CASE FILE</span><button class="icon-button close-dialog" aria-label="상세 팝업 닫기">✕</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="method-dialog" aria-labelledby="method-title"><div class="dialog-top"><span class="dialog-eyebrow">EDITORIAL STANDARD</span><button class="icon-button close-dialog" aria-label="수록 기준 팝업 닫기">✕</button></div><div class="method-content"><span class="dialog-category">이 아카이브를 읽는 방법</span><h2 id="method-title">실제 사용을,<br>공개 기록으로 확인합니다.</h2><p class="method-lead">100건은 수집 목표입니다. 원문에서 확인된 사례만 현재 수록 수에 포함하며, 미확인 사례를 채워 넣지 않습니다.</p><ol><li><strong>REA 사용이 명시된 원문</strong><p>morluto/rea 또는 rea-agents를 실제로 사용한 공식 시연, 작성자의 실행 기록, 비교 실험을 수록합니다.</p></li><li><strong>사례와 도구 소개를 구분</strong><p>설치 안내, 사용 아이디어, 실행 전 프롬프트, 다른 역설계 도구, 동일 사례의 재소개는 집계에서 제외합니다.</p></li><li><strong>수행한 범위까지 설명</strong><p>함수 하나의 복원이나 정적 분석을 앱 전체 복제로 표현하지 않습니다. 성공·부분 성공·제약을 원문의 보고 범위에 맞춰 표시합니다.</p></li><li><strong>서로 다른 분석은 구분</strong><p>분석 대상과 질문이 다른 실행 기록을 별도 사례로 정리합니다. 같은 결과의 번역·재게시·환경별 반복 실행은 중복으로 더하지 않습니다.</p></li></ol><div class="method-foot"><strong>확인의 의미</strong><p>이 사이트는 공개 원문의 실행 기록을 조사·요약한 자료입니다. 모든 실험을 이 사이트 제작 과정에서 직접 재현한 것은 아닙니다. ‘약 300자’는 공백을 포함한 한국어 설명 기준입니다.</p><p>출처 기준일: 2026년 10월 17일 · REA 공식 프로젝트와 별개인 비공식 아카이브입니다.</p></div><a class="source-link" href="https://rea.tools/showcase/" target="_blank" rel="noopener noreferrer">공식 사례 모음 확인하기 ↗</a></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

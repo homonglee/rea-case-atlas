@@ -1,0 +1,14 @@
+{
+  "name": "rea-case-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "REA 실제 사용 보고를 출처와 함께 탐색하는 한국어 아카이브",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
